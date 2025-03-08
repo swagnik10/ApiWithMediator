@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="L-AMOS_6mg5YGkrAmRkT">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VNmZGIhfpruyRfDYdHoN-1" target="VNmZGIhfpruyRfDYdHoN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VNmZGIhfpruyRfDYdHoN-1" target="VNmZGIhfpruyRfDYdHoN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-1" value="ApiWithMediator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VNmZGIhfpruyRfDYdHoN-2" target="VNmZGIhfpruyRfDYdHoN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-2" value="API 1: Get User Details (GET)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-3" value="API 2: Create a New User (POST)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-7" value="&lt;div&gt;Purpose: Fetch user details by ID.&lt;/div&gt;&lt;div&gt;í ½í´¹ Request:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Path Parameter: id (int) â†’ The user ID.&lt;/div&gt;&lt;div&gt;í ½í´¹ Response:&lt;/div&gt;&lt;div&gt;Returns user details (Id, Name, Email, etc.).&lt;br&gt;&lt;br&gt;(No Database Interaction till now)&lt;br&gt;Name Email will be hard coded&lt;br&gt;Id will come from request&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="360" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-9" value="Purpose: Create a new user in the system.&lt;div&gt;&lt;br&gt;Request:&lt;br&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;John Doe&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;email&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;john.doe@example.com&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;br&gt;&lt;br&gt;Response:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Returns the created user&#39;s &lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;1157&quot; data-start=&quot;1151&quot;&gt;ID&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; and confirmation message.&lt;br&gt;&lt;br&gt;&lt;/span&gt;(No Database Interaction till now)&lt;br&gt;Id will be hard coded&lt;br&gt;Name and email will come from request&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VNmZGIhfpruyRfDYdHoN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VNmZGIhfpruyRfDYdHoN-3" target="VNmZGIhfpruyRfDYdHoN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
