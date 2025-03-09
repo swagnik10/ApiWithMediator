@@ -36,8 +36,8 @@
             <mxPoint x="290" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8_f0b-k_V9dRFYTsKgMv-1" value="By a List we have implemented" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="8_f0b-k_V9dRFYTsKgMv-1" value="By a Json file we have implemented&lt;br&gt;We are storing data in a json file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8_f0b-k_V9dRFYTsKgMv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8_f0b-k_V9dRFYTsKgMv-1" target="VNmZGIhfpruyRfDYdHoN-9">
           <mxGeometry relative="1" as="geometry" />
